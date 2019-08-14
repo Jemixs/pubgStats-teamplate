@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<title>PUBGER</title>
+</head>
+<body>
+
+	<header>
+		<div class="row">
+			<div class="col-12 col-md-12 col-lg-12 col-xl-12">
+				<div class="logo">
+					<a href="#"><img src="img/logo.png" alt=""></a>
+				</div>
+
+				<div class="menu">
+					<ul>
+						<li>
+							<a href="./index.html">ГЛАВНАЯ</a>
+							<div class="line"></div>
+						</li>
+						<li>
+							<a href="./leaderBord.html">ТОП ИГРОКОВ</a>
+							<div class="line"></div>
+						</li>
+						<li>
+							<a href="#">БАЗА ЗНАНИЙ</a>
+							<div class="line"></div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="search-form">
+					<input class="text-field" type="text" placeholder="Ник игрока">
+					<button class="send-form"><i class="fas fa-search"></i></button>
+				</div>
+
+				<div class="pubg-online">
+					<span class="numbers">1,014,145</span><span class="online"> игроков онлайн</span>
+				</div>
+
+				<div id="mobMenuOpen" class="mobMenu">
+					<a href="ww"><i class="fas fa-bars"></i></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="mobi-header">
+		<div class="row no-gutters">
+			<div class="col-12">
+				<div class="mobi-menu">
+					<ul>
+						<li><a href=""> ГЛАВНАЯ</a></li>
+						<li><a href="./leaderBord.html"> ТОП ИГРОКОВ</a></li>
+						<li><a href=""> БАЗА ЗНАНИЙ</a></li>
+					</ul>
+
+					<div class="Msearch-form">
+						<input class="Mtext-field" type="text" placeholder="Ник игрока">
+						<button class="Msend-form"><i class="fas fa-search"></i></button>
+					</div>
+
+					<div class="Mpubg-online text-center">
+						<i class="fas fa-user"></i> <span class="numbers">1,014,145</span><span class="online"> игроков онлайн</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xl-12 clearfix">
+				<div class="topProfile clearfix">
+					<div class="backImg" style="background-image: url(img/profileBack.jpg);"></div>
+					<div class="userP">
+						<img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/94/94f0b770e8acf627af1a1bf0e0ea9e801d1d5b61_full.jpg" alt="">
+						<div class="nickName">
+							jEMIXS
+						</div>
+					</br>
+					<div class="update">
+						<a href=""><i class="fas fa-undo"></i> ОБНОВИТЬ</a>
+					</div>
+					<div class="servers">
+						<ul>
+							<li class="select"><a href="">RU</a></li>
+							<li><a href="">EU</a></li>
+							<li><a href="">AS</a></li>
+							<li><a href="">RU</a></li>
+							<li><a href="">EU</a></li>
+							<li><a href="">AS</a></li>
+							<li><a href="">EU</a></li>
+							<li><a href="">AS</a></li>
+							<li><a href="">RU</a></li>
+							<li><a href="">EU</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="profMenu">
+					<ul>
+						<li class="promM">
+							<a class="select" href="">Профиль</a>
+							<div class="decoration" style="display: block;"></div>
+						</li>
+						<li class="promM">
+							<a href="">Матчи</a>
+							<div class="decoration"></div>
+						</li>
+					</ul>
+					<ul class="menuFPP" style="float: right; position: relative; bottom: 30px;">
+						<li style="display: inline-block; margin: 0 14px 0 0;">
+							<div class="profSeson">
+								<select name="slct" id="slct">
+									<option>Выберите сезон</option>
+									<option value="1">Early Access 2017 #1</option>
+									<option value="2">Early Access 2017 #2</option>
+									<option value="3">Early Access 2017 #3</option>
+								</select>
+							</div>
+						</li>
+						<li style="display: inline-block; float: left; margin: 0 14px 0 0;">
+							<label>
+								<input class="checkbox" type="checkbox" name="checkbox-test">
+								<span class="checkbox-custom"></span>
+								<span class="label">FPP</span>
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="w-100"></div>
+		<div class="col-12 mType">
+			<div class="mBlockType">
+			</div>
+		</div>
+		<div class="col-12 col-lg-4">
+			<div class="statsSolo">
+				<div class="title">
+					<span><i class="fas fa-user"></i> SOLO</span>
+					<span class="sGames"><i class="fas fa-gamepad"></i> 115 игр</span>
+				</div>
+				<div class="rating">
+					<span class="ratBig"><i class="far fa-star"></i> 1,770</span>
+					<span class="place">16,342 место (Топ 21.31%)</span>
+					<div class="lineRate">
+						<div class="wLineRate" style="width: 21%;"></div>
+					</div>
+				</div>
+				<div class="bigStats clearfix">
+					<div class="stat">
+						<img src="img/crosshair.png" alt="">
+						<span class="number">0.92</span>
+						<span class="stName">K/D</span>
+					</div>
+					<div class="stat" style="float: right;">
+						<img src="img/flying-dagger.png" alt="">
+						<span class="number">125</span>
+						<span class="stName" style="font-size: 11px;">Ср. урон</span>
+					</div>
+				</div>
+				<div class="smStat">
+					<div class="mStat clearfix">
+						<span class="statName">% Побед</span>
+						<span class="value">0.7%</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">% Top 10</span>
+						<span class="value">6.3%</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">% Хедшот</span>
+						<span class="value">16.7%</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">Средний ранг</span>
+						<span class="value">#52</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">Максимум убийств</span>
+						<span class="value">10</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">KDA</span>
+						<span class="value">0.99</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-lg-4">
+			<div class="statsSolo noMarg">
+				<div class="title">
+					<span><i class="fas fa-user-friends"></i> DUO</span>
+					<span class="sGames"><i class="fas fa-gamepad"></i> 28 игр</span>
+				</div>
+				<div class="rating">
+					<span class="ratBig"><i class="far fa-star"></i> 1,560</span>
+					<span class="place">28,118 место (Топ 10.31%)</span>
+					<div class="lineRate">
+						<div class="wLineRate" style="width: 10%;"></div>
+					</div>
+				</div>
+				<div class="bigStats clearfix">
+					<div class="stat">
+						<img src="img/crosshair.png" alt="">
+						<span class="number">0.99</span>
+						<span class="stName">K/D</span>
+					</div>
+					<div class="stat" style="float: right;">
+						<img src="img/flying-dagger.png" alt="">
+						<span class="number">98</span>
+						<span class="stName" style="font-size: 11px;">Ср. урон</span>
+					</div>
+				</div>
+				<div class="smStat">
+					<div class="mStat clearfix">
+						<span class="statName">% Побед</span>
+						<span class="value">0.9%</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">% Top 10</span>
+						<span class="value">8.5%</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">% Хедшот</span>
+						<span class="value">16.4%</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">Средний ранг</span>
+						<span class="value">#48</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">Максимум убийств</span>
+						<span class="value">8</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">KDA</span>
+						<span class="value">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-lg-4">
+			<div class="statsSolo noMarg">
+				<div class="title">
+					<span><i class="fas fa-users"></i> SQUAD</span>
+					<span class="sGames"><i class="fas fa-gamepad"></i> 58 игр</span>
+				</div>
+				<div class="rating">
+					<span class="ratBig"><i class="far fa-star"></i> 1,840</span>
+					<span class="place">14,980 место (Топ 55.21%)</span>
+					<div class="lineRate">
+						<div class="wLineRate" style="width: 55%;"></div>
+					</div>
+				</div>
+				<div class="bigStats clearfix">
+					<div class="stat">
+						<img src="img/crosshair.png" alt="">
+						<span class="number">1.0</span>
+						<span class="stName">K/D</span>
+					</div>
+					<div class="stat" style="float: right;">
+						<img src="img/flying-dagger.png" alt="">
+						<span class="number">280</span>
+						<span class="stName" style="font-size: 11px;">Ср. урон</span>
+					</div>
+				</div>
+				<div class="smStat">
+					<div class="mStat clearfix">
+						<span class="statName">% Побед</span>
+						<span class="value">1.5%</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">% Top 10</span>
+						<span class="value">10.5%</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">% Хедшот</span>
+						<span class="value">14.4%</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">Средний ранг</span>
+						<span class="value">#10</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">Максимум убийств</span>
+						<span class="value">9</span>
+					</div>
+					<div class="mStat clearfix">
+						<span class="statName">KDA</span>
+						<span class="value">1.5</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w-100"></div>
+		<div class="col-lg-4">
+			<div class="totalStat">
+				<div class="title">
+					Общая статистика
+				</div>
+				<ul>
+					<li>
+						<span class="nameV">Боёв</span>
+						<span class="value">213</span>
+					</li>
+					<li>
+						<span class="nameV">Побед</span>
+						<span class="value">53</span>
+					</li>
+					<li>
+						<span class="nameV">Убийств в голову</span>
+						<span class="value">23</span>
+					</li>
+					<li>
+						<span class="nameV">Помощи союзникам</span>
+						<span class="value">5</span>
+					</li>
+					<li>
+						<span class="nameV">Поднял</span>
+						<span class="value">6</span>
+					</li>
+					<li>
+						<span class="nameV">Лечения</span>
+						<span class="value">52</span>
+					</li>
+					<li>
+						<span class="nameV">Бустов</span>
+						<span class="value">65</span>
+					</li>
+					<li>
+						<span class="nameV">Найдено оружия</span>
+						<span class="value">123</span>
+					</li>
+					<li>
+						<span class="nameV">Продейная дистанция</span>
+						<span class="value">377км</span>
+					</li>
+					<li>
+						<span class="nameV">Времени прожито</span>
+						<span class="value">31м</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-8">
+			<div class="matches">
+				<ul>
+					<li class="matchItem clearfix">
+						<div class="timInfo">
+							<div class="mode"><i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i></div>
+							<div class="time">
+								04:20
+							</div>
+						</div>
+						<div class="more">
+							<i class="fas fa-chevron-circle-down"></i>
+						</div>
+						<div class="matchPosition">
+							<span class="place">#100</span>
+							/100
+						</div>
+						<div class="alive">
+							<div class="value">0м</div>
+							Прожил
+						</div>
+						<div class="damage">
+							<div class="value">564</div>
+							Урон
+						</div>
+						<div class="kills">
+							<div class="value">0</div>
+							Убийств
+						</div>
+						<div class="raing">
+							<div class="value" >+17</div>
+							Рейтинг
+						</div>
+					</li>
+					<li class="matchItem clearfix">
+						<div class="timInfo">
+							<div class="mode"><i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i></div>
+							<div class="time">
+								04:20
+							</div>
+						</div>
+						<div class="more">
+							<i class="fas fa-chevron-circle-down"></i>
+						</div>
+						<div class="matchPosition">
+							<span class="place">#100</span>
+							/100
+						</div>
+						<div class="alive">
+							<div class="value">0м</div>
+							Прожил
+						</div>
+						<div class="damage">
+							<div class="value">564</div>
+							Урон
+						</div>
+						<div class="kills">
+							<div class="value">0</div>
+							Убийств
+						</div>
+						<div class="raing">
+							<div class="value" >+17</div>
+							Рейтинг
+						</div>
+					</li>
+					<li class="matchItem clearfix">
+						<div class="timInfo">
+							<div class="mode"><i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i></div>
+							<div class="time">
+								04:20
+							</div>
+						</div>
+						<div class="more">
+							<i class="fas fa-chevron-circle-down"></i>
+						</div>
+						<div class="matchPosition">
+							<span class="place">#100</span>
+							/100
+						</div>
+						<div class="alive">
+							<div class="value">0м</div>
+							Прожил
+						</div>
+						<div class="damage">
+							<div class="value">564</div>
+							Урон
+						</div>
+						<div class="kills">
+							<div class="value">0</div>
+							Убийств
+						</div>
+						<div class="raing">
+							<div class="value" >+17</div>
+							Рейтинг
+						</div>
+					</li>
+					<li class="matchItem clearfix">
+						<div class="timInfo">
+							<div class="mode"><i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i></div>
+							<div class="time">
+								04:20
+							</div>
+						</div>
+						<div class="more">
+							<i class="fas fa-chevron-circle-down"></i>
+						</div>
+						<div class="matchPosition">
+							<span class="place">#100</span>
+							/100
+						</div>
+						<div class="alive">
+							<div class="value">0м</div>
+							Прожил
+						</div>
+						<div class="damage">
+							<div class="value">564</div>
+							Урон
+						</div>
+						<div class="kills">
+							<div class="value">0</div>
+							Убийств
+						</div>
+						<div class="raing">
+							<div class="value" >+17</div>
+							Рейтинг
+						</div>
+					</li>
+					<li class="matchItem clearfix">
+						<div class="timInfo">
+							<div class="mode"><i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i></div>
+							<div class="time">
+								04:20
+							</div>
+						</div>
+						<div class="more">
+							<i class="fas fa-chevron-circle-down"></i>
+						</div>
+						<div class="matchPosition">
+							<span class="place">#100</span>
+							/100
+						</div>
+						<div class="alive">
+							<div class="value">0м</div>
+							Прожил
+						</div>
+						<div class="damage">
+							<div class="value">564</div>
+							Урон
+						</div>
+						<div class="kills">
+							<div class="value">0</div>
+							Убийств
+						</div>
+						<div class="raing">
+							<div class="value" >+17</div>
+							Рейтинг
+						</div>
+					</li>
+					<li class="matchItem clearfix">
+						<div class="timInfo">
+							<div class="mode"><i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i></div>
+							<div class="time">
+								04:20
+							</div>
+						</div>
+						<div class="more">
+							<i class="fas fa-chevron-circle-down"></i>
+						</div>
+						<div class="matchPosition">
+							<span class="place">#100</span>
+							/100
+						</div>
+						<div class="alive">
+							<div class="value">0м</div>
+							Прожил
+						</div>
+						<div class="damage">
+							<div class="value">564</div>
+							Урон
+						</div>
+						<div class="kills">
+							<div class="value">0</div>
+							Убийств
+						</div>
+						<div class="raing">
+							<div class="value" >+17</div>
+							Рейтинг
+						</div>
+					</li>
+					<li class="matchItem clearfix">
+						<div class="timInfo">
+							<div class="mode"><i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i></div>
+							<div class="time">
+								04:20
+							</div>
+						</div>
+						<div class="more">
+							<i class="fas fa-chevron-circle-down"></i>
+						</div>
+						<div class="matchPosition">
+							<span class="place">#100</span>
+							/100
+						</div>
+						<div class="alive">
+							<div class="value">0м</div>
+							Прожил
+						</div>
+						<div class="damage">
+							<div class="value">564</div>
+							Урон
+						</div>
+						<div class="kills">
+							<div class="value">0</div>
+							Убийств
+						</div>
+						<div class="raing">
+							<div class="value" >+17</div>
+							Рейтинг
+						</div>
+					</li>
+					<li class="matchItem clearfix">
+						<div class="timInfo">
+							<div class="mode"><i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i> <i class="fas fa-user"></i></div>
+							<div class="time">
+								04:20
+							</div>
+						</div>
+						<div class="more">
+							<i class="fas fa-chevron-circle-down"></i>
+						</div>
+						<div class="matchPosition">
+							<span class="place">#100</span>
+							/100
+						</div>
+						<div class="alive">
+							<div class="value">0м</div>
+							Прожил
+						</div>
+						<div class="damage">
+							<div class="value">564</div>
+							Урон
+						</div>
+						<div class="kills">
+							<div class="value">0</div>
+							Убийств
+						</div>
+						<div class="raing">
+							<div class="value" >+17</div>
+							Рейтинг
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="row no-gutters">
+		<div class="container">
+			<div class="col-12">
+				<a href="">PUBGER.RU</a> 
+				<a class="feedback" href="">Обратная связь</a>
+				<p>© 2018 PUBGER.RU Все данные базируются на офицальных данных PLAYERUNKNOWN'S BATTLEGROUNDS</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+</body>
+</html>
